@@ -5,9 +5,9 @@ import pickle
 import pandas as pd
 
 # =============== CONFIGURATION ===============
-CLIENT_ID = "YOUR_CLIENT_ID"
-CLIENT_SECRET = "YOUR_CLIENT_SECRET"
-REDIRECT_URI = "http://127.0.0.1:8888/callback"
+CLIENT_ID = "6d7396640c854e5e9ac849dd33403e2f"
+CLIENT_SECRET = "1c6b0452d69549609ee8d4781b2fa55f"
+REDIRECT_URI = "https://music-streaming-analysis.onrender.com/callback"
 SCOPE = "user-read-recently-played playlist-modify-public playlist-modify-private"
 
 # =============== AUTHENTICATION ===============
@@ -108,3 +108,4 @@ if __name__ == "__main__":
         analyze_and_update_playlists()
         print("😴 Sleeping for 1 hour...\n")
         time.sleep(3600)
+
